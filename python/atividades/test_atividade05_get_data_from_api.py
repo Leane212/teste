@@ -1,6 +1,6 @@
 import pytest
 from unittest.mock import patch
-from atividade05_get_data_from_api import get_data_from_api
+from python.atividades.atividade05_get_data_from_api import get_data_from_api
 
 @patch('atividade05_get_data_from_api.requests.get')
 def test_get_data_from_api_success(mock_get):
